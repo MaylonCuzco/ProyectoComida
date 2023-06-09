@@ -11,7 +11,6 @@ class ClientesController extends Controller
     {
         return view('registro');
     }
-
     public function registro(Request $request)
     {
         // Validar los datos del formulario de registro
@@ -25,7 +24,6 @@ class ClientesController extends Controller
             'correo' => 'required|email',
             'contrasena' => 'required',
         ]);
-
         // Crear un nuevo cliente en la base de datos
         $cliente = new Cliente();
         $cliente->nombre = $request->input('nombre');
