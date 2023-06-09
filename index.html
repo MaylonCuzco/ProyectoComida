@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KFC - Home</title>
+  <!-- Enlace a los estilos de Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- Enlace al archivo de estilos personalizado -->
+  <link rel="stylesheet" href="indexCSS.css">
+</head>
+
+<body>
+  <header class="text-white text-center py-2">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="m-0">KFC</h1>
+      <div>
+        <button class="btn btn-danger btn-lg"><i class="material-icons">person</i></button>
+        <a href="#" id="cartButton" class="btn btn-info  btn-lg"><i class="material-icons">shopping_cart</i>0</a>
+        <!-- Botón del carrito -->
+      </div>
+    </div>
+  </header>
+
+  <div class="container mt-4">
+    <!-- <section class="mb-4">
+      <div class="card text-center">
+        <div class="card-body">
+          <h2 class="card-title">Descubre nuestros productos</h2>
+          <p class="card-text">En KFC, ofrecemos una amplia variedad de deliciosos pollos fritos y platos acompañantes.
+          </p>
+          <a href="#" class="btn btn-danger">Ver menú completo</a>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="bg-light text-white text-center py-4">
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <button onclick="scrollToSection('section1')" class="btn btn-secondary btn-lg menu">Sección 1</button>
+          <button onclick="scrollToSection('section2')" class="btn btn-secondary btn-lg menu">Sección 2</button>
+          <button onclick="scrollToSection('section3')" class="btn btn-secondary btn-lg menu">Sección 3</button>
+          <button onclick="scrollToSection('section4')" class="btn btn-secondary btn-lg menu">Sección 4</button>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="section1" class="mb-4">
+      <hr> <!-- Línea de separación -->
+      <h2>Seccion1</h2>
+      <hr>
+      <div class="row">
+        <div class="col-md-3 carta">
+          <div class="card">
+            <img src="../../../../../../MAYLON/Pictures/5a26526d9929a01d173a8bd0c3e5ef2b.jpg" width="50" height="80" alt="Producto 1"
+              class="product-image" data-toggle="modal" data-target="#productModal1">
+            <div class="card-body">
+              <h5 class="card-title">Producto 1</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="../../../../../../MAYLON/Pictures/1b3e1d56da0859e3ff4fff1d088116ef.jpg" width="50" height="80" alt="Producto 2"
+              class="product-image" data-toggle="modal" data-target="#productModal2">
+            <div class="card-body">
+              <h5 class="card-title">Producto 2</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="../../../../../../MAYLON/Pictures/04b35fea4bf5d428f4ddd367b6001f16.jpg" width="50" height="80" alt="Producto 3"
+              class="product-image" data-toggle="modal" data-target="#productModal3">
+            <div class="card-body">
+              <h5 class="card-title">Producto 2</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="../../../../../../MAYLON/Pictures/109eb981e31ed730b20e7418c9dacfe6.jpg" width="50" height="80" alt="Producto 4"
+              class="product-image" data-toggle="modal" data-target="#productModal4">
+            <div class="card-body">
+              <h5 class="card-title">Producto 2</h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--SECCION 2------------------- -->
+    
+    <section id="section2" class="mb-4">
+    <hr> <!-- Línea de separación -->
+    <h2>Seccion 2</h2>
+    <hr>
+      <div class="row">
+        <div class="col-md-3 carta">
+          <div class="card">
+            <img src="../../../../../../MAYLON/Pictures/5a26526d9929a01d173a8bd0c3e5ef2b.jpg" width="50" height="80" alt="Producto 1"
+              class="product-image" data-toggle="modal" data-target="#productModal1">
+            <div class="card-body">
+              <h5 class="card-title">Producto 1</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="../../../../../../MAYLON/Pictures/1b3e1d56da0859e3ff4fff1d088116ef.jpg" width="50" height="80" alt="Producto 2"
+              class="product-image" data-toggle="modal" data-target="#productModal2">
+            <div class="card-body">
+              <h5 class="card-title">Producto 2</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="../../../../../../MAYLON/Pictures/04b35fea4bf5d428f4ddd367b6001f16.jpg" width="50" height="80" alt="Producto 3"
+              class="product-image" data-toggle="modal" data-target="#productModal3">
+            <div class="card-body">
+              <h5 class="card-title">Producto 2</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="../../../../../../MAYLON/Pictures/109eb981e31ed730b20e7418c9dacfe6.jpg" width="50" height="80" alt="Producto 4"
+              class="product-image" data-toggle="modal" data-target="#productModal4">
+            <div class="card-body">
+              <h5 class="card-title">Producto 2</h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--SECCION 3------------------- -->
+    
+    <section id="section3" class="mb-4">
+      <hr> <!-- Línea de separación -->
+      <h2>Seccion 3</h2>
+      <hr>
+        <div class="row">
+          <div class="col-md-3 carta">
+            <div class="card">
+              <img src="../../../../../../MAYLON/Pictures/5a26526d9929a01d173a8bd0c3e5ef2b.jpg" width="50" height="80" alt="Producto 1"
+                class="product-image" data-toggle="modal" data-target="#productModal1">
+              <div class="card-body">
+                <h5 class="card-title">Producto 1</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="../../../../../../MAYLON/Pictures/1b3e1d56da0859e3ff4fff1d088116ef.jpg" width="50" height="80" alt="Producto 2"
+                class="product-image" data-toggle="modal" data-target="#productModal2">
+              <div class="card-body">
+                <h5 class="card-title">Producto 2</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="../../../../../../MAYLON/Pictures/04b35fea4bf5d428f4ddd367b6001f16.jpg" width="50" height="80" alt="Producto 3"
+                class="product-image" data-toggle="modal" data-target="#productModal3">
+              <div class="card-body">
+                <h5 class="card-title">Producto 2</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="../../../../../../MAYLON/Pictures/109eb981e31ed730b20e7418c9dacfe6.jpg" width="50" height="80" alt="Producto 4"
+                class="product-image" data-toggle="modal" data-target="#productModal4">
+              <div class="card-body">
+                <h5 class="card-title">Producto 2</h5>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </section>
+
+
+    <!-- MODAL -->
+
+    <div class="modal fade" id="productModal1" tabindex="-1" role="dialog" aria-labelledby="productModal1Label"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="productModal1Label">Producto 1</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="../../../../../../MAYLON/Pictures/5a26526d9929a01d173a8bd0c3e5ef2b.jpg" alt="Producto 1" class="modal-image">
+            <p>Descripción detallada del Producto 1</p>
+            <p>Precio: $10</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-danger addToCartButton" data-product="Producto 1">Agregar al
+              carrito</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="productModal2" tabindex="-1" role="dialog" aria-labelledby="productModal2Label"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="productModal2Label">Producto 2</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="../../../../../../MAYLON/Pictures/1b3e1d56da0859e3ff4fff1d088116ef.jpg" alt="Producto 2"
+              class="modal-image">
+            <p>Descripción detallada del Producto 2</p>
+            <p>Precio: $15</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-danger addToCartButton" data-product="Producto 2">Agregar al
+              carrito</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="mb-4">
+      <h2>Contacto</h2>
+      <p>¿Tienes alguna pregunta o comentario? ¡Contáctanos!</p>
+      <button class="btn btn-danger" onclick="handleClick()">Enviar mensaje</button>
+    </section>
+  </div>
+
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Información de la empresa</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum tortor sit amet metus tristique, sed
+            consectetur purus viverra.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Contactos</h4>
+          <p>Correo electrónico: info@kfc.com</p>
+          <p>Teléfono: +123456789</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Redes sociales</h4>
+          <a href="#" class="btn btn-primary">Facebook</a>
+          <a href="#" class="btn btn-info">Twitter</a>
+          <a href="#" class="btn btn-danger">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Enlace al archivo de scripts de Bootstrap y cualquier otro script adicional -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="indexJS.js"></script>
+</body>
+
+</html>

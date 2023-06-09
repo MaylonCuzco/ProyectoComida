@@ -1,0 +1,73 @@
+/* Estilos personalizados */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+header{
+  background-color: rgb(116, 163, 238);
+}
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+
+  .card:hover {
+    transform: scale(1.05); /* Ampliar ligeramente el div al pasar el cursor */
+    transition: transform 0.3s ease; /* Agregar una transición suave */
+    cursor: pointer;
+  }
+  
+
+  .product-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .product-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .modal-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .cart-item {
+    margin-bottom: 10px;
+  }
+  
+.menu{
+  margin-left: 10px;
+}
