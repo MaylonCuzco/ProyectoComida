@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Formulario de Registros</title>
+    <title>Formulario de Registro</title>
  
     <style>
         /* styles.css */
