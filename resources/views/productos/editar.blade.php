@@ -61,7 +61,6 @@
                     @endif
 
 
-
                 </select><br><br>
 
                 <input class="btn btn-outline-primary w-100" type="submit" value="Editar">
