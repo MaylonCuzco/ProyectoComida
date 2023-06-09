@@ -2,8 +2,6 @@
 
 @section('content')
 
-
-
     <div class="d-flex justify-content-center m-5">
         <div class="card p-5">
             <h1>Editar producto</h1><br>
@@ -43,7 +41,6 @@
                     <input type="text" class="form-control" value="{{ $producto->precio_unitario }}"
                         name="precio_unitario" step="0.01" required><br><br>
                 </div>
-
 
                 <label for="categoria">Categoría:</label>
                 <select class="form-select" name="categoria" required>
