@@ -37,6 +37,6 @@ class ClientesController extends Controller
         $cliente->save();
 
         // Redireccionar a una página de éxito o mostrar un mensaje de éxito
-        return redirect('/exito');
+        return redirect('/productos');
     }
 }
