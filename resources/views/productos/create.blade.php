@@ -38,7 +38,6 @@
                     <input type="text" class="form-control" name="precio_unitario" step="0.01" required><br><br>
                 </div>
 
-
                 <label for="categoria">Categoría:</label>
                 <select class="form-select" name="categoria" required>
                     
